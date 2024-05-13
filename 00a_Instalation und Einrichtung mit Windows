@@ -1,18 +1,21 @@
-#Git installieren
-Besuche die Git-Website in deinem Webbrowser.
-Lade die neueste Version von Git für Windows herunter.
-Öffne die heruntergeladene Datei und folge den Installationsanweisungen.
-Wähle während der Installation die Standardoptionen aus, es sei denn, du benötigst spezifische Anpassungen.
-Git konfigurieren
-Öffne die Git Bash-Anwendung, die mit der Git-Installation installiert wurde.
+# Git installieren
 
-Konfiguriere deinen Benutzernamen, indem du den folgenden Befehl eingibst und dein gewünschter Benutzername ersetzt:
+1. Besuche die Git-Website in deinem Webbrowser.
+2. Lade die neueste Version von Git für Windows herunter.
+3. Öffne die heruntergeladene Datei und folge den Installationsanweisungen.
+4. Wähle während der Installation die Standardoptionen aus, es sei denn, du benötigst spezifische Anpassungen.
 
-~~~shell
-git config --global user.name "Dein Benutzername"
-Konfiguriere deine E-Mail-Adresse mit dem folgenden Befehl und ersetze "deine-email@Beispiel.com" durch deine E-Mail-Adresse:
-~~~
+# Git konfigurieren
 
-~~~shell
+1. Öffne die Git Bash-Anwendung, die mit der Git-Installation installiert wurde.
+2. Konfiguriere deinen Benutzernamen, indem du den folgenden Befehl eingibst und dein gewünschter Benutzername ersetzt:
+
+   ```Shell 
+   git config --global user.name "Dein Benutzername"
+  ```
+  
+
+3.Konfiguriere deine E-Mail-Adresse mit dem folgenden Befehl und ersetze "deine-email@Beispiel.com" durch deine E-Mail-Adresse:
+```shell
 git config --global user.email "deine-email@Beispiel.com"
-~~~
+ ```
